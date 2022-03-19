@@ -14,7 +14,7 @@ const Modal = ({closeModal}:ModalProps) => {
   
 
   return (
-    <ModalOverlay onClick={closeModal}>
+    <ModalOverlay >
       <ModalContainer>
         <ModalTitleContainer>
           <h3>Request Form</h3>

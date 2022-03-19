@@ -21,6 +21,12 @@ align-items: center;
        color: #fff;
    }
 
+   @media(max-width:1024px){
+    h2{
+        font-size: 1rem
+    }
+}
+
 `
 
 
@@ -30,3 +36,4 @@ color:#FFF;
 border: 1px solid white;
 
 `
+

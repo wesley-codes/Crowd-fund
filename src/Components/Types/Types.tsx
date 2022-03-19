@@ -7,8 +7,8 @@ import { ReactNode, SVGProps } from "react"
 
 export interface AngelSVGProps  {
 
-    width: number,
-    height: number,
+    width?: number,
+    height?: number,
     props? : SVGProps<SVGSVGElement>
 
 }
