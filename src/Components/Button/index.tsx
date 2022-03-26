@@ -1,6 +1,6 @@
 import React from 'react'
-import { ButtonProps } from '../Types/Types'
-import { StyledButton } from './Button.styles'
+import { ButtonProps } from '../Types'
+import { StyledButton } from './style'
 
 const Button = ({radius, padding, bgColor,children} :ButtonProps) => {
   return (

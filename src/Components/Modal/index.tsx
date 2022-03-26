@@ -1,15 +1,15 @@
 import React from "react";
-import Input from "../Input/Input";
-import { TextArea } from "../TextArea/TextArea";
+import Input from "../Input";
+import { TextArea } from "../TextArea";
 import {
   FileInput,
   ModalContainer,
   ModalOverlay,
   ModalsubmitButton,
   ModalTitleContainer,
-} from "./Modal.styles";
-import CloseSVG from "../../Components/SVGs/CloseSVG"
-import { ModalProps } from "../Types/Types";
+} from "./style";
+import CloseSVG from "../SVGs/CloseSVG"
+import { ModalProps } from "../Types";
 const Modal = ({closeModal}:ModalProps) => {
   
 

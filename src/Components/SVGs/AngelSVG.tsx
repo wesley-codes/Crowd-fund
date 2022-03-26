@@ -4,7 +4,7 @@
 
 
 import * as React from "react"
-import { AngelSVGProps } from "../Types/Types"
+import { AngelSVGProps } from "../Types"
 
 const AngelSVG= ({width, height, props}:AngelSVGProps) => (
   <svg

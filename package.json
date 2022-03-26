@@ -11,18 +11,22 @@
     "@types/react": "^17.0.41",
     "@types/react-dom": "^17.0.14",
     "@types/styled-components": "^5.1.24",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^4.0.3",
     "styled-components": "^5.3.3",
     "typescript": "^4.6.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npx typesync && git diff --exit-code --quiet HEAD package.json || yarn --ignore-scripts"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/testing-library__jest-dom": "^5.14.3",
+    "@types/testing-library__user-event": "^4.2.0"
   }
 }

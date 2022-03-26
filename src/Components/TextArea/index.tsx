@@ -2,8 +2,8 @@
 
 
 import React from 'react'
-import { InputContainer, Styledlabel } from '../Input/Input.styles'
-import { StyledTextArea } from './TextArea.styles'
+import { InputContainer, Styledlabel } from '../Input/style'
+import { StyledTextArea } from './style'
 
 export const TextArea = () => {
   return (

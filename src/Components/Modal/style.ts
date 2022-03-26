@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { StyledButton } from "../Button/Button.styles"
-import Input from "../Input/Input"
+import { StyledButton } from "../Button/style"
+import Input from "../Input"
 
 
 
