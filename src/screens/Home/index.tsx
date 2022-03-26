@@ -35,7 +35,7 @@ const HomeScreen = () => {
         console.log("POST COUNT", count);
       });
     }
-  }, [active]);
+  }, [active, connect]);
   return (
     <Container>
       <div>
